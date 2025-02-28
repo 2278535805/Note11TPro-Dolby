@@ -1347,15 +1347,15 @@
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="40"/>
       <virtual-bass-slope-gain value="15"/>
-      <virtual-bass-mix-freqs frequency_low="50" frequency_high="240"/>
-      <virtual-bass-src-freqs frequency_low="20" frequency_high="140"/>
-      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="-300,16,0,0"/>
-      <virtual-bass-hybgains value="0,22,16,0,0,0"/>
+      <virtual-bass-mix-freqs frequency_low="90" frequency_high="467"/>
+      <virtual-bass-src-freqs frequency_low="40" frequency_high="267"/>
+      <virtual-bass-subgains harmonic_2="-24" harmonic_3="-128" harmonic_4="-160"/>
+      <virtual-bass-harmgains value="130,60,15,0"/>
+      <virtual-bass-hybgains value="4,22,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="0"/>
-      <virtual-bass-blend-linear-gain value="-10"/>
-      <virtual-bass-mix-frequency value="148,510"/>
-      <virtual-bass-compressor-tuning value="1,0,-320,96,32,28,200"/>
+      <virtual-bass-blend-linear-gain value="4"/>
+      <virtual-bass-mix-frequency value="80,510"/>
+      <virtual-bass-compressor-tuning value="1,0,-20,96,32,28,40"/>
       <bass-mbdrc-tuning value="1,-2080,0,-1200,-368,-368,-80,3,93,96,1,-1600,0,-1120,-400,-368,-96,4,86,96,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-352,-240,5,10,64,1,-1600,0,-1120,-400,-240,-64,39,74,32"/>
       <virtualizer-front-speaker-angle value="15"/>
       <virtualizer-height-speaker-angle value="10"/>
