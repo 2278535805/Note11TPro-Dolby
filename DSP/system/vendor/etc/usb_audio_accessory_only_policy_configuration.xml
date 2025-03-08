@@ -22,12 +22,22 @@
     </mixPorts>
     <devicePorts>
         <devicePort tagName="USB Host Out" type="AUDIO_DEVICE_OUT_USB_ACCESSORY" role="sink">
-            <profile name=""
-                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                samplingRates="dynamic"
+                channelMasks="AUDIO_CHANNEL_OUT_STEREO" />
+            <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
+                samplingRates="dynamic"
+                channelMasks="AUDIO_CHANNEL_OUT_STEREO" />
+            <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
+                samplingRates="dynamic"
+                channelMasks="AUDIO_CHANNEL_OUT_STEREO" />
+            <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                samplingRates="dynamic"
+                channelMasks="AUDIO_CHANNEL_OUT_STEREO" />
         </devicePort>
     </devicePorts>
     <routes>
         <route type="mux" sink="USB Host Out"
-               sources="usb_accessory output"/>
+            sources="usb_accessory output" />
     </routes>
 </module>

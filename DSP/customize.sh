@@ -2,9 +2,10 @@ SKIPUNZIP=0
 
 print_modname() {
 	ui_print "*********************************"
-	ui_print "-      HLMC的xaga音效v2"
+	ui_print "-      xaga/rubens 音频优化"
 	ui_print "*********************************"
-	ui_print "- 场景选择视频"
+	ui_print "- 场景默认为动态"
+	ui_print "- 选择人声将启用音量调节器"
 	ui_print "*********************************"
 }
 

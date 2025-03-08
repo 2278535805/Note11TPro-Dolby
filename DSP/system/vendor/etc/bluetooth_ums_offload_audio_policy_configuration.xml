@@ -14,10 +14,34 @@
     <devicePorts>
         <!-- A2DP Audio Ports -->
         <devicePort tagName="BT A2DP Out" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" role="sink">
+            <profile name="" format="AUDIO_FORMAT_PCM_FLOAT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
         </devicePort>
         <devicePort tagName="BT A2DP Headphones" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" role="sink">
+            <profile name="" format="AUDIO_FORMAT_PCM_FLOAT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
         </devicePort>
         <devicePort tagName="BT A2DP Speaker" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" role="sink">
+            <profile name="" format="AUDIO_FORMAT_PCM_FLOAT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+            <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                     samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
         </devicePort>
         <!-- Hearing AIDs Audio Ports -->
         <devicePort tagName="BT Hearing Aid Out" type="AUDIO_DEVICE_OUT_HEARING_AID" role="sink"/>
