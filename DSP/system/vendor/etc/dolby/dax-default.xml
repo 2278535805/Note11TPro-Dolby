@@ -66,17 +66,17 @@
         <band_ieq frequency="656" target="100"/>
         <band_ieq frequency="844" target="100"/>
         <band_ieq frequency="1031" target="100"/>
-        <band_ieq frequency="1313" target="100"/>
+        <band_ieq frequency="1313" target="110"/>
         <band_ieq frequency="1688" target="140"/>
         <band_ieq frequency="2250" target="140"/>
         <band_ieq frequency="3000" target="140"/>
-        <band_ieq frequency="3750" target="-40"/>
-        <band_ieq frequency="4688" target="-80"/>
-        <band_ieq frequency="5813" target="120"/>
-        <band_ieq frequency="7125" target="150"/>
-        <band_ieq frequency="9000" target="40"/>
-        <band_ieq frequency="11250" target="0"/>
-        <band_ieq frequency="13875" target="90"/>
+        <band_ieq frequency="3750" target="-30"/>
+        <band_ieq frequency="4688" target="-30"/>
+        <band_ieq frequency="5813" target="170"/>
+        <band_ieq frequency="7125" target="200"/>
+        <band_ieq frequency="9000" target="90"/>
+        <band_ieq frequency="11250" target="10"/>
+        <band_ieq frequency="13875" target="100"/>
         <band_ieq frequency="19688" target="90"/>
       </ieq-bands>
     </data>
@@ -1345,14 +1345,14 @@
       <regulator-stress-amount value="240,240,96,96"/>
       <regulator-distortion-slope value="16"/>
       <virtual-bass-mode value="3"/>
-      <virtual-bass-overall-gain value="40"/>
-      <virtual-bass-slope-gain value="40"/>
+      <virtual-bass-overall-gain value="-40"/>
+      <virtual-bass-slope-gain value="-40"/>
       <virtual-bass-mix-freqs frequency_low="135" frequency_high="325"/>
       <virtual-bass-src-freqs frequency_low="25" frequency_high="150"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-64" harmonic_4="-192"/>
       <virtual-bass-harmgains value="4,0,0,0"/>
       <virtual-bass-hybgains value="16,32,0,0,0,0"/>
-      <virtual-bass-rolloff-gain value="32"/>
+      <virtual-bass-rolloff-gain value="-32"/>
       <virtual-bass-blend-linear-gain value="7"/>
       <virtual-bass-mix-frequency value="10,975"/>
       <virtual-bass-compressor-tuning value="1,0,-20,96,32,28,40"/>
@@ -1446,14 +1446,14 @@
       <regulator-stress-amount value="240,240,96,96"/>
       <regulator-distortion-slope value="16"/>
       <virtual-bass-mode value="3"/>
-      <virtual-bass-overall-gain value="40"/>
-      <virtual-bass-slope-gain value="40"/>
+      <virtual-bass-overall-gain value="-40"/>
+      <virtual-bass-slope-gain value="-40"/>
       <virtual-bass-mix-freqs frequency_low="135" frequency_high="325"/>
       <virtual-bass-src-freqs frequency_low="25" frequency_high="150"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-64" harmonic_4="-192"/>
       <virtual-bass-harmgains value="4,0,0,0"/>
       <virtual-bass-hybgains value="16,32,0,0,0,0"/>
-      <virtual-bass-rolloff-gain value="32"/>
+      <virtual-bass-rolloff-gain value="-32"/>
       <virtual-bass-blend-linear-gain value="7"/>
       <virtual-bass-mix-frequency value="10,975"/>
       <virtual-bass-compressor-tuning value="1,0,-20,96,32,28,40"/>
