@@ -1285,8 +1285,8 @@
         <band_optimizer frequency="1031" gain_left="80" gain_right="-20"/>
         <band_optimizer frequency="1313" gain_left="110" gain_right="-20"/>
         <band_optimizer frequency="1688" gain_left="140" gain_right="10"/>
-        <band_optimizer frequency="2250" gain_left="110" gain_right="-70"/>
-        <band_optimizer frequency="3000" gain_left="50" gain_right="-90"/>
+        <band_optimizer frequency="2250" gain_left="90" gain_right="-70"/>
+        <band_optimizer frequency="3000" gain_left="30" gain_right="-90"/>
         <band_optimizer frequency="3750" gain_left="-70" gain_right="-140"/>
         <band_optimizer frequency="4688" gain_left="-10" gain_right="-160"/>
         <band_optimizer frequency="5813" gain_left="0" gain_right="-90"/>
@@ -1386,8 +1386,8 @@
         <band_optimizer frequency="1031" gain_left="80" gain_right="-20"/>
         <band_optimizer frequency="1313" gain_left="110" gain_right="-20"/>
         <band_optimizer frequency="1688" gain_left="140" gain_right="10"/>
-        <band_optimizer frequency="2250" gain_left="110" gain_right="-70"/>
-        <band_optimizer frequency="3000" gain_left="50" gain_right="-90"/>
+        <band_optimizer frequency="2250" gain_left="90" gain_right="-70"/>
+        <band_optimizer frequency="3000" gain_left="30" gain_right="-90"/>
         <band_optimizer frequency="3750" gain_left="-70" gain_right="-140"/>
         <band_optimizer frequency="4688" gain_left="-10" gain_right="-160"/>
         <band_optimizer frequency="5813" gain_left="0" gain_right="-90"/>
