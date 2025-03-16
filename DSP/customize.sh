@@ -5,6 +5,7 @@ print_modname() {
 	ui_print "-      xaga/rubens 音频优化"
 	ui_print "*********************************"
 	ui_print "- 场景默认为动态"
+	ui_print "- 动态/视频: 听感优先  音乐: 监听调音"
 	ui_print "- 选择人声将启用音量调节器"
 	ui_print "*********************************"
 }
