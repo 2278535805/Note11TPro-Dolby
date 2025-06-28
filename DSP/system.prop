@@ -20,3 +20,4 @@ ro.vendor.audio.sfx.harmankardon=false
 aaudio.mmap_policy=2
 aaudio.mmap_exclusive_policy=2
 vendor.audio.lowpower=false
+ro.vendor.mtk.audio.spatializer_enable_stereo=true
