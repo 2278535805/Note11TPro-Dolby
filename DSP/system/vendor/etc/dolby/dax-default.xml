@@ -45,11 +45,11 @@
         <band_ieq frequency="1688" target="160"/>
         <band_ieq frequency="2250" target="160"/>
         <band_ieq frequency="3000" target="170"/>
-        <band_ieq frequency="3750" target="-120"/>
-        <band_ieq frequency="4688" target="-180"/>
-        <band_ieq frequency="5813" target="100"/>
-        <band_ieq frequency="7125" target="240"/>
-        <band_ieq frequency="9000" target="280"/>
+        <band_ieq frequency="3750" target="-100"/>
+        <band_ieq frequency="4688" target="-100"/>
+        <band_ieq frequency="5813" target="250"/>
+        <band_ieq frequency="7125" target="280"/>
+        <band_ieq frequency="9000" target="230"/>
         <band_ieq frequency="11250" target="140"/>
         <band_ieq frequency="13875" target="150"/>
         <band_ieq frequency="19688" target="120"/>
@@ -1285,12 +1285,12 @@
         <band_optimizer frequency="1031" gain_left="80" gain_right="-20"/>
         <band_optimizer frequency="1313" gain_left="110" gain_right="-20"/>
         <band_optimizer frequency="1688" gain_left="140" gain_right="10"/>
-        <band_optimizer frequency="2250" gain_left="90" gain_right="-70"/>
-        <band_optimizer frequency="3000" gain_left="30" gain_right="-90"/>
-        <band_optimizer frequency="3750" gain_left="-70" gain_right="-140"/>
-        <band_optimizer frequency="4688" gain_left="-10" gain_right="-160"/>
+        <band_optimizer frequency="2250" gain_left="60" gain_right="-70"/>
+        <band_optimizer frequency="3000" gain_left="0" gain_right="-90"/>
+        <band_optimizer frequency="3750" gain_left="-100" gain_right="-140"/>
+        <band_optimizer frequency="4688" gain_left="-20" gain_right="-160"/>
         <band_optimizer frequency="5813" gain_left="0" gain_right="-90"/>
-        <band_optimizer frequency="7125" gain_left="80" gain_right="-40"/>
+        <band_optimizer frequency="7125" gain_left="70" gain_right="-40"/>
         <band_optimizer frequency="9000" gain_left="60" gain_right="-135"/>
         <band_optimizer frequency="11250" gain_left="40" gain_right="-180"/>
         <band_optimizer frequency="13875" gain_left="-60" gain_right="50"/>
@@ -1348,14 +1348,14 @@
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="-40"/>
       <virtual-bass-slope-gain value="-40"/>
-      <virtual-bass-mix-freqs frequency_low="135" frequency_high="325"/>
+      <virtual-bass-mix-freqs frequency_low="150" frequency_high="325"/>
       <virtual-bass-src-freqs frequency_low="20" frequency_high="150"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-64" harmonic_4="-192"/>
       <virtual-bass-harmgains value="4,0,0,0"/>
       <virtual-bass-hybgains value="16,32,0,0,0,0"/>
       <virtual-bass-rolloff-gain value="-32"/>
       <virtual-bass-blend-linear-gain value="7"/>
-      <virtual-bass-mix-frequency value="10,975"/>
+      <virtual-bass-mix-frequency value="20,400"/>
       <virtual-bass-compressor-tuning value="1,0,-20,96,32,28,40"/>
       <bass-mbdrc-tuning value="1,-2080,0,-1200,-368,-368,-80,3,93,96,1,-1600,0,-1120,-400,-368,-96,4,86,96,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-352,-240,5,10,64,1,-1600,0,-1120,-400,-240,-64,39,74,32"/>
       <virtualizer-front-speaker-angle value="15"/>
@@ -1386,12 +1386,12 @@
         <band_optimizer frequency="1031" gain_left="80" gain_right="-20"/>
         <band_optimizer frequency="1313" gain_left="110" gain_right="-20"/>
         <band_optimizer frequency="1688" gain_left="140" gain_right="10"/>
-        <band_optimizer frequency="2250" gain_left="90" gain_right="-70"/>
-        <band_optimizer frequency="3000" gain_left="30" gain_right="-90"/>
-        <band_optimizer frequency="3750" gain_left="-70" gain_right="-140"/>
-        <band_optimizer frequency="4688" gain_left="-10" gain_right="-160"/>
+        <band_optimizer frequency="2250" gain_left="60" gain_right="-70"/>
+        <band_optimizer frequency="3000" gain_left="0" gain_right="-90"/>
+        <band_optimizer frequency="3750" gain_left="-100" gain_right="-140"/>
+        <band_optimizer frequency="4688" gain_left="-20" gain_right="-160"/>
         <band_optimizer frequency="5813" gain_left="0" gain_right="-90"/>
-        <band_optimizer frequency="7125" gain_left="80" gain_right="-40"/>
+        <band_optimizer frequency="7125" gain_left="70" gain_right="-40"/>
         <band_optimizer frequency="9000" gain_left="60" gain_right="-135"/>
         <band_optimizer frequency="11250" gain_left="40" gain_right="-180"/>
         <band_optimizer frequency="13875" gain_left="-60" gain_right="50"/>
@@ -1449,14 +1449,14 @@
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="-40"/>
       <virtual-bass-slope-gain value="-40"/>
-      <virtual-bass-mix-freqs frequency_low="135" frequency_high="325"/>
+      <virtual-bass-mix-freqs frequency_low="150" frequency_high="325"/>
       <virtual-bass-src-freqs frequency_low="20" frequency_high="150"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-64" harmonic_4="-192"/>
       <virtual-bass-harmgains value="4,0,0,0"/>
       <virtual-bass-hybgains value="16,32,0,0,0,0"/>
       <virtual-bass-rolloff-gain value="-32"/>
       <virtual-bass-blend-linear-gain value="7"/>
-      <virtual-bass-mix-frequency value="10,975"/>
+      <virtual-bass-mix-frequency value="20,400"/>
       <virtual-bass-compressor-tuning value="1,0,-20,96,32,28,40"/>
       <bass-mbdrc-tuning value="1,-2080,0,-1200,-368,-368,-80,3,93,96,1,-1600,0,-1120,-400,-368,-96,4,86,96,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-352,-240,5,10,64,1,-1600,0,-1120,-400,-240,-64,39,74,32"/>
       <virtualizer-front-speaker-angle value="15"/>
