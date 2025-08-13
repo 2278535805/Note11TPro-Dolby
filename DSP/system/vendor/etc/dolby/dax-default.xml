@@ -333,8 +333,8 @@
       <advanced-headphone-virtualizer-lr-angle value="45"/>
       <endpoint_type id="speaker">
         <include preset="ieq_balanced"/>
-        <ieq-enable value="false"/>
-        <ieq-amount value="0"/>
+        <ieq-enable value="true"/>
+        <ieq-amount value="10"/>
         <calibration-boost value="0"/>
         <mi-dialog-enhancer-steering-enable value="false"/>
         <dialog-enhancer-enable value="false"/>
@@ -439,8 +439,8 @@
       <advanced-headphone-virtualizer-lr-angle value="45"/>
       <endpoint_type id="speaker">
         <include preset="ieq_balanced"/>
-        <ieq-enable value="false"/>
-        <ieq-amount value="0"/>
+        <ieq-enable value="true"/>
+        <ieq-amount value="10"/>
         <calibration-boost value="0"/>
         <mi-dialog-enhancer-steering-enable value="false"/>
         <dialog-enhancer-enable value="false"/>
@@ -544,7 +544,7 @@
       <surround-decoder-diffuse-relocating-to-front-amount value="0"/>
       <advanced-headphone-virtualizer-lr-angle value="45"/>
       <endpoint_type id="speaker">
-        <include preset="ieq_warm"/>
+        <include preset="ieq_balanced"/>
         <ieq-enable value="false"/>
         <ieq-amount value="0"/>
         <calibration-boost value="0"/>
@@ -1278,7 +1278,7 @@
       <audio-optimizer-bands>
         <band_optimizer frequency="47" gain_left="100" gain_right="100"/>
         <band_optimizer frequency="141" gain_left="150" gain_right="150"/>
-        <band_optimizer frequency="234" gain_left="100" gain_right="60"/>
+        <band_optimizer frequency="234" gain_left="100" gain_right="20"/>
         <band_optimizer frequency="328" gain_left="100" gain_right="20"/>
         <band_optimizer frequency="469" gain_left="50" gain_right="20"/>
         <band_optimizer frequency="656" gain_left="20" gain_right="-50"/>
